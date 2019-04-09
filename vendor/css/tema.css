@@ -85,7 +85,7 @@ html, body {
 }
 
 .kiri .gambar-cover {
-  background-image: url("/aset/gambar/bg-header2.jpg");
+  background-image: url("aset/gambar/bg-header2.jpg");
   position: absolute;
   background-repeat: no-repeat;
   background-position: right bottom;
