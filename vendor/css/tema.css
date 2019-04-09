@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400|Playfair+Display:400,700|Pacifico");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.45em;
+}
+
+.kiri {
+  color: #f5f6fa !important;
+  display: block;
+  font: inherit;
+}
+
+.kiri a {
+  color: #f5f6fa;
+  -webkit-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+}
+
+.kiri a:hover {
+  -webkit-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  background-color: #487eb0 !important;
+}
+
+.kiri .aktif {
+  background-color: #487eb0 !important;
+  color: #f5f6fa;
+  -webkit-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+}
+
+.kiri .aktif:hover {
+  -webkit-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  background-color: #40739e !important;
+}
+
+.kiri .judul {
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+}
+
+.kiri .judul:hover {
+  text-decoration: none;
+}
+
+.kiri #deskripsi {
+  font-family: inherit;
+  font-weight: 300;
+  color: #7f8fa6;
+}
+
+.kiri header {
+  background-color: #353b48 !important;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+}
+
+.kiri .kotakkepala {
+  font-size: 25px;
+  border: thin solid #fff;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.kiri .bagian {
+  position: relative;
+  z-index: 1;
+}
+
+.kiri .utama {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: center;
+}
+
+.kiri .gambar-cover {
+  background-image: url("/aset/gambar/bg-header2.jpg");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  opacity: .5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.kiri .copyright {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.ngeblog {
+  color: #353b48 !important;
+  font-family: "Playfair Display", serif !important;
+  font-size: 14px;
+}
+
+.ngeblog .intro {
+  font-size: 16px;
+  margin: 0 auto 30px;
+}
+
+.ngeblog .intro h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  line-height: 1.55;
+  color: inherit;
+  margin-top: 20px;
+}
+
+.ngeblog .intro p {
+  color: #40739e !important;
+  font-size: 12px;
+}
+
+.ngeblog .intro p .by {
+  font-style: italic;
+}
+
+.ngeblog .intro p .date {
+  text-transform: uppercase;
+  padding: 4px 0 4px 10px;
+  margin-left: 10px;
+  border-left: 1px solid #ddd;
+}
+
+.ngeblog .intro p a {
+  color: tcolors(dark);
+  text-transform: uppercase;
+  padding-left: 3px;
+}
+
+.ngeblog .intro img {
+  margin-top: 20px;
+}
+
+.ngeblog .text p {
+  margin-bottom: 20px;
+  line-height: 1.45;
+}
+
+@media (min-widh: 768px) {
+  .ngeblog .text p {
+    font-size: 16px;
+  }
+}
+
+.ngeblog .text h2 {
+  margin-top: 28px;
+  margin-bottom: 20px;
+  line-height: 1.45;
+  font-size: 16px;
+  font-weight: bold;
+  color: tcolors(dark);
+}
+
+@media (min-width: 768px) {
+  .ngeblog .text h2 {
+    font-size: 20px;
+  }
+}
+
+.ngeblog .text figure {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.ngeblog .text figure img {
+  margin-bottom: 12px;
+  max-width: 100%;
+}
+/*# sourceMappingURL=tema.css.map */

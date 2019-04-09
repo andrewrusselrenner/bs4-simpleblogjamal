@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>Buku Tamu</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Disini komentar buku tamunya/entri buku tamunya -->
+            <div class="col-md-8">
+                <div id="entryPost"></div>
+            </div>
+            <!-- Disini form nya -->
+            <div class="col-md-4">
+                <h1 class="text-bold">Buku Tamu Kenneth</h1>
+                <p>
+                    Terima kasih sudah mampir. Silahkan isi buku tamu ini jadi aku tau kamu barusan dari sini.
+                </p>
+                <hr>
+                <h3>Sign The Guestbook!</h3>
+                <!-- Dibawah ini form user akan ketik pesan dan ketik namanya -->
+                <form action="javascript:void(0);" method="POST" id="formbukutamu" onsubmit="bukutamu.Tambah()">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="nama" id="nama" placeholder="Nama Depan" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="pesan" class="form-control" id="pesan" cols="30" rows="10" placeholder="Masukkan pesan Anda disini" required></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-primary px-2" value="Kirim" id="kirimbukutamu">
+                    <input type="reset" class="btn btn-danger px-2" value="Ketik ulang form" id="resetbukutamu">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Impor kostum javascriptnya sayy -->
+    <script src="vendor/js/bukutamu.js"></script>
+</body>
+
+</html>
